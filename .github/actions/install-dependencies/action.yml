@@ -16,7 +16,7 @@ runs:
 
     - name: Install xml2rfc
       shell: bash
-      run: pip install xml2rfc
+      run: python -m pip install --upgrade pip==26.2.2 && python -m pip install xml2rfc
 
     - name: Install dependencies
       shell: bash
