@@ -7,7 +7,7 @@ runs:
     - name: Set up pnpm
       uses: wevm/actions/.github/actions/pnpm@main
       with:
-        node-version: 24.5
+        node-version: 24.22.1
 
     - name: Set up Python
       uses: actions/setup-python@v5
